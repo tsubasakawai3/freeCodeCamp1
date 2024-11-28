@@ -1,0 +1,10 @@
+Requirements
+・Match examples as closely as you can
+・Animation loops infinitely
+・Centered on page
+
+Hints and Help
+・Uses the CSS animation property & keyframes
+・In this animation, three dark circles are
+  growing larger and lighter in color at a fairly
+  slow pace

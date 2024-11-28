@@ -1,0 +1,5 @@
+Going Further
+・Recreate a layout or component you love from your favorite website or app
+・Customize and personalize what you've built with different themes, colors, fonts
+・Experiment with different shapes and animation transformations to create
+  your own loading animations

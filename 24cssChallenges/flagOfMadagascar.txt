@@ -1,0 +1,3 @@
+Requirements
+・Aspect Ratio: 2:3
+・Stripes are equal area (same height and width)

@@ -1,0 +1,4 @@
+Requirements
+・Aspect Ratio: 6:7
+・Stripes have equal area
+・Circle 85% of the height of the stripe

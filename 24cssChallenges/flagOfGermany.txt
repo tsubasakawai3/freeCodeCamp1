@@ -1,0 +1,2 @@
+Requirements:
+Aspect Ratio: 3:5

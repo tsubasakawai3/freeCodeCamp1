@@ -1,0 +1,47 @@
+:root {
+    --bg-red: #ff0000;
+    --bg-orange: #ffA500;
+    --bg-blue: #0000ff;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.square {
+    margin: .5em;
+    height: 1.5em;
+    width: 1.5em;
+    animation: rotate infinite 1.5s;
+    transform: rotate(45deg);
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(-45deg);
+    }
+
+    to {
+        transform: rotate(45deg);
+    }
+}
+
+.square1 {
+    background: var(--bg-red);
+}
+
+.square2 {
+    background: var(--bg-orange);
+}
+
+.square3 {
+    background: var(--bg-blue);
+}
