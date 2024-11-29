@@ -1,0 +1,51 @@
+/* Basic reset for the toggle */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Container for the toggle switch */
+.toggle-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+/* Hide the actual checkbox input */
+.toggle-input {
+    display: none;
+}
+
+/* Style for the custom switch */
+.toggle-switch {
+    width: 60px;
+    height: 30px;
+    background-color: #ccc;
+    border-radius: 50px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+/* The toggle button */
+.toggle-switch::before {
+    content: '';
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background-color: white;
+    top: 2px;
+    left: 2px;
+    transition: transform 0.3s ease;
+}
+
+/* When the checkbox is checked, change the background and position of the toggle */
+.toggle-input:checked + .toggle-switch {
+    background-color: #4CAF50;
+}
+
+.toggle-input:checked + .toggle-switch::before {
+    transform: translateX(30px);
+}
